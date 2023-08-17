@@ -29,7 +29,7 @@ Corresponding author$^\dagger$
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2023</div><img src='images/IROS2023.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Multi-Source Fusion for Voxel-Based 7-DoF Grasping Pose Estimation,IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS)2023
+Multi-Source Fusion for Voxel-Based 7-DoF Grasping Pose Estimation, IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS)2023
 
 **Junning Qiu**, Fei Wang, Zheng Dang$^\dagger$
 
@@ -45,6 +45,6 @@ Multi-Source Fusion for Voxel-Based 7-DoF Grasping Pose Estimation,IEEE/RSJ Inte
 - *2017.09 - 2021.06*, Northwestern Polytechnical University. 
 
 # PrePrint
-[What Stops Learning-based 3D Registration from Working in the Real World?]
+[What Stops Learning-based 3D Registration from Working in the Real World?](https://arxiv.org/abs/2111.10399)
 
 Zheng Dang, Lizhou Wang, **Junning Qiu**, Minglei Lu, Mathieu Salzmann
