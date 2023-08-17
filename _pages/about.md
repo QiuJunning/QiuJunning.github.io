@@ -36,7 +36,7 @@ Corresponding author$^\dagger$
 # PrePrint
 [What Stops Learning-based 3D Registration from Working in the Real World?]
 
-Zheng Dang, Lizhou Wang,**Junning Qiu**, Minglei Lu, Mathieu Salzmann
+Zheng Dang, Lizhou Wang, **Junning Qiu**, Minglei Lu, Mathieu Salzmann
 </div>
 </div>
 
