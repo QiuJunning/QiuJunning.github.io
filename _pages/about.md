@@ -32,11 +32,11 @@ Corresponding author$^\dagger$
 Multi-Source Fusion for Voxel-Based 7-DoF Grasping Pose Estimation, IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS)2023
 
 **Junning Qiu**, Fei Wang, Zheng Dang$^\dagger$
-abstract:In this work, we tackle the problem of 7-DoF grasping pose estimation(6-DoF with the opening width of parallel-jaw gripper) from point cloud data, which is a fundamental task in robotic manipulation.
+
 Most existing methods adopt 3D voxel CNNs as the backbone for their efficiency in handling unordered point cloud data. However, we found that these approaches overlook detailed information of the point clouds, resulting in decreased performance.
 Through our analysis, we identified quantization loss and boundary information loss within 3D convolutional layers as the primary causes of this issue. 
-To address these challenges, we introduced two novel branches: one adds an extra positional encoding operation to preserve details and unique features for each point, and the other uses a 2D CNN to operate on the range-based image, which better aggregates boundary information on a continuous 2D domain. To integrate these branches with the original branch, we introduced a novel multi-source fusion gated mechanism to aggregate features. 
-Our approach achieved state-of-the-art performance on the Graspnet-1Billion benchmark and demonstrated high success rates in real robotic experiments across different scenes. Our work has the potential to improve the performance of robotic grasping systems and contribute to the field of robotics.
+To address these challenges, we introduced two novel branches: one adds an extra positional encoding operation to preserve details and unique features for each point, and the other uses a 2D CNN to operate on the range-based image.
+Our approach achieved state-of-the-art performance on the Graspnet-1Billion benchmark and demonstrated high success rates in real robotic experiments across different scenes.
 </div>
 </div>
 
