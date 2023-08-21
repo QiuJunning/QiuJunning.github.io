@@ -34,7 +34,7 @@ Multi-Source Fusion for Voxel-Based 7-DoF Grasping Pose Estimation, IEEE/RSJ Int
 **Junning Qiu**, Fei Wang, Zheng Dang$^\dagger$
 
 Abstract: Through our analysis, we identified quantization loss and boundary information loss within 3D convolutional layers as the two primary reasons for limitations of voxelization in 7-DoF grasping pose estimation.
-To address these challenges, we introduced two novel branches and a novel multi-source fusion gated mechanism.
+To address these challenges, we introduced two novel branches: positional encoding branch and 2D convolution branch and a novel multi-source fusion gated mechanism.
 Our approach achieved state-of-the-art performance on the Graspnet-1Billion benchmark and demonstrated high success rates in real robotic experiments across different scenes.
 </div>
 </div>
