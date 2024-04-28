@@ -31,6 +31,8 @@ Corresponding author$^\dagger$
 
 Multi-Source Fusion for Voxel-Based 7-DoF Grasping Pose Estimation, IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS)2023
 
+Check out the [video demo here](https://youtu.be/fYIzs0q1Des) for a detailed look!
+
 **Junning Qiu**, Fei Wang, Zheng Dang$^\dagger$
 
 Abstract: In this work, we tackle the problem of estimating the grasping pose of a parallel-jaw gripper from point cloud data, which is a fundamental task in robotic manipulation. Most existing methods adopt 3D voxel CNNs as the backbone for their efficiency in handling unordered point cloud data. However, we found that these approaches overlook details information of the point clouds, resulting in decreased performance.Through our analysis, we identified quantization loss and boundary information loss within 3D convolutional layers as the two primary reasons for limitations of voxelization in 7-DoF grasping pose estimation.
