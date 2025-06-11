@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Junning Qiu"
-description              : "Research Intern at Tencent Robotics X"
+description              : "Research on Multimodal Perception and Embodied Intelligence"
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name: "Junning Qiu"
   avatar: "images/android-chrome-512x512.png"
-  bio: "Multimodal Perception and Embodied Intelligence"
+  bio: "Research Intern at Tencent Robotics X"
   location: "Shenzhen, China"
   email: "junning.qiu@stu.xjtu.edu.cn"
   googlescholar: "https://scholar.google.com/citations?user=377sDowAAAAJ&hl=zh-CN"
