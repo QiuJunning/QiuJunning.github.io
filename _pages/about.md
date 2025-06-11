@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a research intern at Tencent Robotics X. My research interests are computer vision, 6D pose estimation, and robot manipulation.
+I received a Master of Science (M.S.) from Xi'an Jiaotong University and am currently a full-time research intern at Tencent Robotics X. My research experience spans a range of topics in computer vision and robotics, including 3D reconstruction with RGBD and stereo sensors, 6D pose estimation, 7-DoF grasp pose estimation, and robot system setup and calibration. I am broadly interested in embodied intelligence, with a particular focus on robotic perception and VLA (Vision-Language-Action).  
+**I am actively seeking Ph.D. positions in computer vision or robotics for Spring or Fall 2026. Please feel free to contact me at junning.qiu@stu.xjtu.edu.cn.**
+
 
 # 🔥 News
 - *2025.02*: &nbsp;🎉🎉 1 paper accepted to CVPR2025.
