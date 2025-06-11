@@ -20,6 +20,7 @@ redirect_from:
 I am a research intern at Tencent Robotics X. My research interests are computer vision, 6D pose estimation, and robot manipulation.
 
 # 🔥 News
+- *2025.02*: &nbsp;🎉🎉 1 paper accepted to CVPR2025.
 - *2023.06*: &nbsp;🎉🎉 1 paper accepted to IROS2023.
 
 
