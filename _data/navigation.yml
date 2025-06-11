@@ -16,5 +16,6 @@ main:
     url: "/#-educations"
 
   - title: "PrePrint"
-    url: "/#-preprint"
+    url: "/#preprint"
+
 
