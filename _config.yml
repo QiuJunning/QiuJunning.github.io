@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Junning Qiu (邱钧宁)"
+title                    : "Junning Qiu"
 description              : "Research Intern at Tencent Robotics X. Focusing on computer vision and robotics."
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Junning Qiu"
+  name             : "Junning Qiu (邱钧宁)"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Tencent"
   location         : "Shenzhen, China"
