@@ -25,7 +25,7 @@ I am a research intern at Tencent Robotics X. My research interests are computer
 
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/ICRA2025.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/ICRA2025.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Leveraging Global Stereo Consistency for Category-Level Shape and 6D Pose Estimation from Stereo Images (CVPR2025)
