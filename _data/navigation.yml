@@ -3,13 +3,13 @@ main:
   - title: "About"
     url: "/#about-me"
 
-  - title: "具身基座模型"
+  - title: "Foundation"
     url: "/#foundation"
 
-  - title: "具身操作"
+  - title: "Manipulation"
     url: "/#manipulation"
 
-  - title: "具身感知"
+  - title: "Perception"
     url: "/#perception"
 
   - title: "News"

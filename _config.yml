@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Junning Qiu"
-description              : "具身基座模型 · 具身操作 · 具身感知"
+description              : "Embodied foundation models, manipulation, and perception"
 repository               : "QiuJunning/QiuJunning.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name: "Junning Qiu"
   avatar: "images/personal_pic_512×512.png"
-  bio: "众擎 Engine AI"
+  bio: "Engine AI"
   location: "Shenzhen, China"
   email: "qiujn@engineai.com.cn"
   googlescholar: "https://scholar.google.com/citations?user=377sDowAAAAJ&hl=zh-CN"

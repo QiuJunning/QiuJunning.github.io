@@ -10,21 +10,19 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-<p class="lede">Junning Qiu is at <a href="https://en.engineai.com.cn/">众擎 (Engine AI)</a>. The work is grouped into three parts: embodied foundation models, embodied manipulation, and embodied perception.</p>
+<p class="lede">Junning Qiu works on embodied intelligence at <a href="https://en.engineai.com.cn/">Engine AI</a>. Since 2025 the work has covered foundation models, manipulation, and perception.</p>
 
 <div class="focus-row" markdown="0">
-  <span class="focus-chip primary">具身基座模型</span>
-  <span class="focus-chip primary">具身操作</span>
-  <span class="focus-chip primary">具身感知</span>
+  <span class="focus-chip primary">Foundation models</span>
+  <span class="focus-chip primary">Manipulation</span>
+  <span class="focus-chip primary">Perception</span>
 </div>
 
 <span class="anchor" id="foundation"></span>
 
-# 具身基座模型
+# Embodied Foundation Models
 
-<p class="section-en">Embodied foundation models · 众擎, 2025.07 – present</p>
-
-<p class="work-note">Native 2D/3D spatial representations and large-scale multimodal models for robotics, including <a href="https://arxiv.org/abs/2609.02359">TempoGround</a> and vision-language-action architectures. The same line builds a data-to-model closed loop that turns real robot interaction into the next round of model training.</p>
+<p class="work-note">Vision-language pretraining here is aimed at model paradigms and training methods with native embodied ability: native 2D/3D perception, and objectives tied to robot tasks. Real robot interaction is fed back into the next round of training. <a href="https://arxiv.org/abs/2609.02359">TempoGround</a> is the pretraining paper.</p>
 
 <div class="paper-box">
 <!-- image held out for now
@@ -38,7 +36,7 @@ redirect_from:
 
 Leqian Ding, **Junning Qiu**<sup>✉</sup>, Manwen Yang, Yu Guo<sup>✉</sup>, Fei Wang
 
-The VLM pretraining paper. TempoGround is trained from Qwen3.5 in three stages: ~26M single-frame samples for 2D detection and camera-frame 3D lifting, ~5.1M streaming samples for cross-frame correspondence and presence, followed by reinforcement learning with grounding, identity, and consistency rewards. At each streaming frame, it tracks object identity, determines temporal presence (enter, stay, or leave), and lifts 2D bounding boxes directly into the camera frame.
+Pretrains a vision-language model, from Qwen3.5, for streaming grounding: native 2D detection and camera-frame 3D lifting, then cross-frame identity and presence.
 
 <div class="paper-links" markdown="0">
 <a href="https://arxiv.org/abs/2609.02359">arXiv</a>
@@ -50,11 +48,9 @@ The VLM pretraining paper. TempoGround is trained from Qwen3.5 in three stages: 
 
 <span class="anchor" id="manipulation"></span>
 
-# 具身操作
+# Embodied Manipulation
 
-<p class="section-en">Embodied manipulation · 众擎, 2025.07 – present</p>
-
-<p class="work-note">Manipulation deployment on the T800 humanoid, including RL-based whole-body control. Earlier work estimates 7-DoF grasp poses in clutter.</p>
+<p class="work-note">Autonomous manipulation on the T800 humanoid, including reinforcement-learning whole-body control. Earlier work estimates 7-DoF grasps in clutter.</p>
 
 <div class="paper-box">
 <!-- image held out for now
@@ -68,7 +64,7 @@ EdgeGrasp: Enhancing Edge Perception for 7-DoF Grasping Pose Estimation in Clutt
 
 **Junning Qiu**, Fei Wang, Yu Guo, Yonggen Ling, Minglei Lu
 
-7-DoF grasp pose estimation in clutter, with estimation driven by enhanced geometric edge cues.
+7-DoF grasp poses in clutter, driven by stronger geometric edge cues.
 
 </div>
 </div>
@@ -85,7 +81,7 @@ Multi-Source Fusion for Voxel-Based 7-DoF Grasping Pose Estimation
 
 **Junning Qiu**, Fei Wang, Zheng Dang
 
-Voxel-based 7-DoF grasping using positional encoding, 2D convolution, and gated cross-modal fusion to prevent loss of boundary and pose details within discretized grids.
+Voxel-based 7-DoF grasping that keeps boundary and pose detail.
 
 <div class="paper-links" markdown="0">
 <a href="https://youtu.be/fYIzs0q1Des">Video</a>
@@ -96,11 +92,9 @@ Voxel-based 7-DoF grasping using positional encoding, 2D convolution, and gated 
 
 <span class="anchor" id="perception"></span>
 
-# 具身感知
+# Embodied Perception
 
-<p class="section-en">Embodied perception · 众擎, 2025.07 – present</p>
-
-<p class="work-note">Autonomous perception and tracking on the T800. Earlier work covers stereo category-level shape and 6D pose, and the gap between learned 3D registration and real scans.</p>
+<p class="work-note">Autonomous perception and tracking on the T800. Earlier work estimates category-level shape and 6D pose from stereo, and studies why learned 3D registration fails on real scans.</p>
 
 <div class="paper-box">
 <!-- image held out for now
@@ -114,7 +108,7 @@ Voxel-based 7-DoF grasping using positional encoding, 2D convolution, and gated 
 
 **Junning Qiu**, Minglei Lu, Fei Wang, Yu Guo, Yonggen Ling
 
-Category-level shape and 6D pose from a stereo pair. Global stereo consistency avoids degenerate solutions across shape, pose, and scale, maintaining accuracy even on challenging surfaces where active depth sensors degrade.
+Category-level shape and 6D pose from stereo, including where depth sensors fail.
 
 <div class="paper-links" markdown="0">
 <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Qiu_Leveraging_Global_Stereo_Consistency_for_Category-Level_Shape_and_6D_Pose_CVPR_2025_paper.html">Paper</a>
@@ -137,7 +131,7 @@ Category-level shape and 6D pose from a stereo pair. Global stereo consistency a
 
 Zheng Dang, Lizhou Wang, **Junning Qiu**, Minglei Lu, Mathieu Salzmann
 
-Systematic investigation into failure modes of point-cloud registration networks on real sensor data, with architectural and training prescriptions for zero-shot synthetic-to-real generalization.
+Why learned point-cloud registration fails on real scans, and what lets a synthetic-trained model transfer.
 
 <div class="paper-links" markdown="0">
 <a href="https://arxiv.org/abs/2111.10399">arXiv</a>
@@ -150,10 +144,10 @@ Systematic investigation into failure modes of point-cloud registration networks
 
 # News
 
-- *2026.09*: [TempoGround](https://arxiv.org/abs/2609.02359) is on arXiv. Pretraining state-aware streaming visual grounding VLMs for robotics. Corresponding author.
-- *2026*: EdgeGrasp accepted to ICRA 2026.
-- *2025.07*: Joined 众擎 (Engine AI). Work covers embodied foundation models, manipulation, and perception on the T800.
-- *2025.02*: One paper accepted to CVPR 2025 on category-level shape and 6D pose estimation.
+- *2026.09*: [TempoGround](https://arxiv.org/abs/2609.02359) on arXiv. Corresponding author.
+- *2026*: EdgeGrasp at ICRA 2026.
+- *2025.07*: Joined Engine AI.
+- *2025.02*: One paper at CVPR 2025.
 
 <span class="anchor" id="openings"></span>
 
@@ -161,17 +155,9 @@ Systematic investigation into failure modes of point-cloud registration networks
 
 <div class="opening" markdown="1">
 
-Open research and engineering positions on a rolling basis, focusing on:
+Research and engineering roles are open on a rolling basis, including internships. The focus is vision-language pretraining for embodied models, and the data loop that trains them.
 
-- **Vision-Language Foundation Model Pretraining**: Native 2D/3D spatial representations, streaming multi-frame reasoning, multimodal alignment, and large-scale post-training (RLHF/RLAIF) for embodied perception.
-- **Data-to-Model Closed Loop**: Scalable data curation, automated synthesis, high-throughput auto-labeling, and closed-loop data engine infrastructure for continuous foundation model iteration.
-
-长期招募研究员与算法工程师（校招 / 社招 / 研究实习均可，滚动招聘），核心聚焦方向：
-
-- **VLM 基座模型预训练**：多模态表征学习、原生 2D/3D 空间理解、流式视频推理、长上下文理解与对齐微调 / 强化学习。
-- **数据到模型的全链路闭环**：大规模高质量多模态数据挖掘、自动化标注与合成生成体系、持续学习与基座模型迭代的数据飞轮建设。
-
-欢迎对前沿视觉语言大模型预训练与数据自闭环体系有探索热情的朋友交流合作，请将简历直接发送至 <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>。
+Email a resume to <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
 
 </div>
 
@@ -182,4 +168,4 @@ Open research and engineering positions on a rolling basis, focusing on:
 - M.S., Xi'an Jiaotong University.
 - B.S., Northwestern Polytechnical University.
 
-National Scholarship. Xi'an Jiaotong University Special Scholarship. First prizes and leadership in national innovation competitions.
+National Scholarship. Xi'an Jiaotong University Special Scholarship.
