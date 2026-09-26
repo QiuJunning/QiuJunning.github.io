@@ -315,9 +315,10 @@ h1:before, .anchor:before {
 .page__content .home h1:after {
     content: "";
     display: block;
-    width: 2rem;
-    height: 2px;
-    margin-top: 0.45rem;
+    width: 2.4rem;
+    height: 3px;
+    margin-top: 0.5rem;
+    border-radius: 2px;
     background: #00369f;
 }
 
@@ -353,11 +354,12 @@ h1:before, .anchor:before {
 
 .home .paper-box {
     display: block;
-    margin: 0 0 0.75rem;
-    padding: 0.95rem 1.05rem 0.85rem;
-    border: 1px solid #e5ebf3;
-    border-radius: 10px;
-    background: #fbfcfe;
+    margin: 0 0 0.8rem;
+    padding: 1rem 1.15rem 0.9rem;
+    border: 1px solid #d7e1ee;
+    border-radius: 12px;
+    background: #f8fafc;
+    box-shadow: 0 1px 2px rgba(20, 40, 70, 0.04);
 }
 
 .home .paper-box-text {
