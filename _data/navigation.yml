@@ -1,21 +1,22 @@
-# main links links
+# main links
 main:
-  - title: "About Me"
+  - title: "About"
     url: "/#about-me"
 
+  - title: "具身基座模型"
+    url: "/#foundation"
+
+  - title: "具身操作"
+    url: "/#manipulation"
+
+  - title: "具身感知"
+    url: "/#perception"
+
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "Openings"
+    url: "/#openings"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "PrePrint"
-    url: "/#preprint"
-
-
+  - title: "Education"
+    url: "/#education"

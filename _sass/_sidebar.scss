@@ -237,6 +237,11 @@
     white-space: nowrap;
   }
 
+  li.author__email {
+    white-space: normal;
+    word-break: break-all;
+  }
+
   a {
     display: block;
     margin-bottom: 5px;

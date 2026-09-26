@@ -98,12 +98,202 @@ h1:before, .anchor:before {
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.2rem 0.7rem;
     position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
+    top: 0.6rem;
+    left: -0.35rem;
+    margin: 0;
     color: white;
     background-color: #00369f;
-    font-size: .8em;
+    font-size: .78em;
+    letter-spacing: 0.02em;
+    z-index: 1;
+}
+
+.paper-box {
+    align-items: flex-start;
+    padding: 1.15rem 0 1.25rem;
+}
+
+.paper-box .paper-box-text {
+    max-width: 100%;
+    padding-left: 0;
+}
+
+@include breakpoint($medium) {
+    .paper-box .paper-box-text {
+        max-width: 100%;
+        padding-left: 0;
+    }
+}
+
+.venue-label {
+    display: inline-block;
+    margin: 0 0 0.45rem;
+    padding: 0.08rem 0.5rem;
+    border-radius: 4px;
+    background: #f4f7fb;
+    color: #00369f;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+.section-en {
+    margin: -0.35rem 0 0.8rem;
+    color: #5c6b82;
+    font-size: 0.95rem;
+}
+
+.work-note {
+    margin-bottom: 0.4rem;
+}
+
+.paper-box .paper-box-image img {
+    max-width: none;
+    width: 100%;
+    height: 148px;
+    object-fit: cover;
+    box-shadow: none;
+    border-radius: 6px;
+}
+
+.paper-box-image {
+    position: relative;
+}
+
+.paper-thumb {
+    position: relative;
+    width: 100%;
+}
+
+.paper-box-image img,
+.venue-tile {
+    width: 100%;
+    height: 148px;
+    max-width: none;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: none;
+    border: 1px solid #e6ebf4;
+}
+
+.venue-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #f4f7fb;
+    color: #00369f;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.venue-tile span {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    color: #5c6b82;
+}
+
+.venue-tile.arxiv { color: #b31b1b; }
+.venue-tile.icra { color: #0b3a82; }
+
+.paper-box-text h3,
+.paper-box-text p:first-child {
+    margin-top: 0;
+}
+
+.paper-links {
+    margin-top: 0.35rem;
+}
+
+.paper-links a {
+    display: inline-block;
+    margin: 0.35rem 0.45rem 0 0;
+    padding: 0.12rem 0.55rem;
+    border: 1px solid #d5deee;
+    border-radius: 999px;
+    font-size: 0.86rem;
+    text-decoration: none;
+}
+
+.paper-links a:hover {
+    border-color: #00369f;
+    color: #00369f;
+}
+
+.lede {
+    font-size: 1.08rem;
+    line-height: 1.65;
+    color: #142033;
+}
+
+.focus-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 0.2rem 0 0.8rem;
+}
+
+.focus-chip {
+    border: 1px solid #d7deee;
+    background: #f7f9fd;
+    color: #1c2b45;
+    border-radius: 999px;
+    padding: 0.28rem 0.75rem;
+    font-size: 0.92rem;
+    line-height: 1.4;
+}
+
+.focus-chip.primary {
+    background: #00369f;
+    border-color: #00369f;
+    color: #fff;
+}
+
+.opening {
+    border-left: 4px solid #00369f;
+    background: #f6f8fc;
+    padding: 0.85rem 1rem 0.95rem;
+    margin: 0.2rem 0 0.4rem;
+}
+
+.opening p:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .tl-item {
+    padding: 0 0 0.95rem 1rem;
+    border-left: 2px solid #e3e8f2;
+}
+
+.timeline .when {
+    color: #5c6b82;
+    font-size: 0.88rem;
+}
+
+.timeline .role {
+    font-weight: 600;
+    color: #142033;
+}
+
+.timeline ul {
+    margin: 0.35rem 0 0;
+    padding-left: 1.15rem;
+}
+
+.timeline li {
+    margin-bottom: 0.35rem;
+}
+
+.pillar-list {
+    margin-top: 0.2rem;
+}
+
+.pillar-list li {
+    margin-bottom: 0.55rem;
 }

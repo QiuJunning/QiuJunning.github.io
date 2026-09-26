@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Junning Qiu"
-description              : "Research on Multimodal Perception and Embodied Intelligence"
-repository               : "RayeRen/acad-homepage.github.io"
+description              : "具身基座模型 · 具身操作 · 具身感知"
+repository               : "QiuJunning/QiuJunning.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name: "Junning Qiu"
   avatar: "images/personal_pic_512×512.png"
-  bio: "Research Intern at Tencent Robotics X"
+  bio: "众擎 Engine AI"
   location: "Shenzhen, China"
-  email: "junning.qiu@stu.xjtu.edu.cn"
+  email: "qiujn@engineai.com.cn"
   googlescholar: "https://scholar.google.com/citations?user=377sDowAAAAJ&hl=zh-CN"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
